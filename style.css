@@ -113,17 +113,31 @@ body main .principal__div button:hover {
 .personagem,
 .species {
   color: #95ff00;
-  font-size: 38px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 .foto {
   width: 40%;
-  height: 300px;
+  height: 250px;
 }
 @media screen and (max-width: 760px) {
   .foto {
     width: 90%;
+  }
+}
+
+@media screen and (max-height: 568px) {
+  .foto {
+    width: 90%;
+    height: 180px;
+  }
+
+  .personagem,
+  .species {
+    color: #95ff00;
+    font-size: 25px;
+    font-weight: bold;
   }
 }
 
