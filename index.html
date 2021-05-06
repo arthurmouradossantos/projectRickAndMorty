@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Rick and Morty</title>
+</head>
+
+<body>
+  <header>
+    <img src="assets/img/logotipo.png" alt="Logo do Rick and Morty.">
+  </header>
+  <main class="principal">
+    <div class="principal__div">
+      <form action="#">
+        <label for="personagem">Nome do personagem</label>
+
+        <select id="personagem" class="formulario" name="personagem" required>
+
+          <option disabled selected> Escolha um personagem</option>
+          <option value="Rick Sanchez">Rick Sanchez</option>
+          <option value="Morty Smith">Morty Smith</option>
+          <option value="Summer Smith">Summer Smith</option>
+          <option value="Beth Smith">Beth Smith</option>
+          <option value="Jerry Smith">Jerry Smith</option>
+          <option value="Abadango Cluster Princess">Abadango Cluster Princess</option>
+          <option value="Abradolf Lincler">Abradolf Lincler</option>
+          <option value="Adjudicator Rick">Adjudicator Rick</option>
+          <option value="Agency Director">Agency Director</option>
+          <option value="Alan Rails">Alan Rails</option>
+          <option value="Albert Einstein">Albert Einstein</option>
+          <option value="Alexander">Alexander</option>
+          <option value="Alien Googah">Alien Googah</option>
+          <option value="Alien Morty">Alien Morty</option>
+          <option value="Alien Rick">Alien Rick</option>
+          <option value="Amish Cyborg">Amish Cyborg</option>
+          <option value="Annie">Annie</option>
+          <option value="Antenna Morty">Antenna Morty</option>
+          <option value="Antenna Rick">Antenna Rick</option>
+          <option value="Ants in my Eyes Johnson">Ants in my Eyes Johnson</option>
+        </select>
+        <button type="submit">Aperte</button>
+      </form>
+    </div>
+  </main>
+  <script src=" https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

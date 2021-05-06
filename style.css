@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: url(assets/img/logotipoone.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body header {
+  text-align: center;
+  background-color: #97ce4c;
+  box-shadow: 2px 2px 10px #97ce4c;
+}
+body header img {
+  height: 100px;
+  width: 500px;
+}
+@media screen and (max-width: 760px) {
+  body header img {
+    width: 300px;
+  }
+}
+body main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+body main .principal__div {
+  background-color: rgba(232, 154, 199, 0.9999);
+  box-shadow: 5px 5px 10px rgba(151, 206, 76, 0.51);
+  width: 50%;
+  border-radius: 10px;
+  height: 70vh;
+  text-align: center;
+}
+@media screen and (max-width: 1024px) {
+  body main .principal__div {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 760px) {
+  body main .principal__div {
+    width: 90%;
+  }
+}
+body main .principal__div form {
+  margin-bottom: 20px;
+}
+body main .principal__div label {
+  margin: 3rem 0 1rem 0;
+  display: block;
+  font-size: 35px;
+  font-weight: bold;
+  color: #95ff00;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.51);
+}
+@media screen and (max-width: 760px) {
+  body main .principal__div label {
+    font-size: 25px;
+  }
+}
+body main .principal__div .formulario {
+  width: 55%;
+  height: 35px;
+  font-size: 18px;
+  border-radius: 4px;
+  background-color: white;
+  color: #f829a2;
+  font-weight: bold;
+  cursor: pointer;
+}
+body main .principal__div .formulario option {
+  color: #f829a2;
+  background-color: white;
+}
+@media screen and (max-width: 1024px) {
+  body main .principal__div .formulario {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 760px) {
+  body main .principal__div .formulario {
+    font-size: 15px;
+    width: 60%;
+  }
+}
+body main .principal__div .formulario:focus {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px solid #95ff00;
+}
+body main .principal__div button {
+  height: 35px;
+  padding: 10px 20px;
+  background-color: #95ff00;
+  border-radius: 4px;
+  color: #f829a2;
+  font-size: 15px;
+  font-weight: bold;
+}
+body main .principal__div button:hover {
+  background-color: #f829a2;
+  cursor: pointer;
+  color: #95ff00;
+}
+
+/*# sourceMappingURL=style.scss.map */
+.personagem,
+.species {
+  color: #95ff00;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.foto {
+  width: 40%;
+  height: 300px;
+}
+@media screen and (max-width: 760px) {
+  .foto {
+    width: 90%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
